@@ -85,12 +85,13 @@ function main() {
     gl.clearColor(253.0 / 255.0, 240.0 / 255.0, 240.0 / 255.0, 1.0);
     gl.clear(gl.COLOR_BUFFER_BIT);
 
-    // gl.drawArrays(gl.POINTS, 0, 1);
+    // huruf L 
     gl.drawArrays(gl.TRIANGLES, 0, 3);
     gl.drawArrays(gl.TRIANGLES, 3, 3);
     gl.drawArrays(gl.TRIANGLES, 6, 3);
     gl.drawArrays(gl.TRIANGLES, 9, 3);
 
+    // huruf H
     gl.drawArrays(gl.TRIANGLES, 12, 3);
     gl.drawArrays(gl.TRIANGLES, 15, 3);
     gl.drawArrays(gl.TRIANGLES, 18, 3);
